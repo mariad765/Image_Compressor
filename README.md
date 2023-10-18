@@ -38,8 +38,12 @@ a factor of 3000 to "example1.ppm".
 Decompressed files have names like "decompressedX_Y.ppm" where X is the index of the compressed 
 file, and Y is the compression factor applied.
 Example: "decompressed1_3000.ppm" is the decompression of the file "compressed1_3000.out".
+
+
 ################################################################################
 //................................TASK1..........................................
+
+
 Title: Implementation of the compression tree.
 I defined two structures: Grid and Tree. I created a matrix using the Grid structure to store the image 
 pixels, and allocated it dynamically. To build the quaternary compression tree, I created the insert 
@@ -63,7 +67,11 @@ returns 0.
 I created the countLeaves function, which recursively calculates the number of leaves, and the 
 maxLeafSize function, which calculates the maximum size in a leaf node. Since the maximum was 
 required multiple times, I created a macro to assist with the calculations.
+
+
 //..............................TASK2............................................
+
+
 Title: Image compression
 I implemented the compression tree. For this task, I created the writeOnLevel function and 
 implemented a queue. The working principle is as follows: the root node of the tree is inserted into 
@@ -72,7 +80,11 @@ a gSize function to quickly extract the current size of the queue. I check the t
 and based on the type, I write the necessary information to the file. This node is then removed from 
 the queue; if it has children, they will be added to the queue, thus obtaining the size of the next level. 
 I also created the other functions specific to a queue: createQueue, enqueue, dequeue, destroyQueue.
+
+
 //..............................TASK3............................................
+
+
 Title: Construction of the decompression compression tree
 For decompression, we need to reconstruct the tree read level by level from the file. I used a queue 
 and followed a similar principle as in the previous exercise. I created a read function that reads the 
