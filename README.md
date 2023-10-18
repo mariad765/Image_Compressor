@@ -26,6 +26,13 @@ Project written in C. Working with PPM files.
 
 ## Before and After
 
+
+![before](https://github.com/mariad765/Image_Compressor/assets/117621479/f0e1f2aa-eca1-47b5-a775-37bd441fc8e7)
+
+
+![after](https://github.com/mariad765/Image_Compressor/assets/117621479/a3ac6f5d-fdab-498e-a6df-bbf4058d9528)
+
+
 ## Tasks Described
 
 This project was originally a homework for the data structure course. So it is made following different tasks.
