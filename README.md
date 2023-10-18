@@ -18,7 +18,6 @@ List some of the key features of your project.
 
 - Compression Tree Data Structure: The core of our project is the Compression Tree, which intelligently organizes and compresses image data. This innovative approach allows for a higher degree of compression without compromising image quality.
 - Dynamic Compression Factor: Users have the flexibility to choose the compression factor (Y) when compressing images. This feature enables you to balance image quality and file size according to your specific needs. **This factor plays an important role and can be see in the Before and Aftrer example.**
-  
 -  Streamlined File Naming: The project simplifies the management of compressed and decompressed files by using a consistent naming convention. Files are named in the format "compressedX_Y.out" for compressed files and "decompressedX_Y.ppm" for decompressed files.
 
 ## Technologies
