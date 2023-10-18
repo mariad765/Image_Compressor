@@ -24,6 +24,8 @@ List some of the key features of your project.
 
 Project written in C. Working with PPM files.
 
+## Before and After
+
 ## Tasks Described
 
 This project was originally a homework for the data structure course. So it is made following different tasks.
