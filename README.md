@@ -10,7 +10,7 @@ The "Image Compression and Decompression System" is an efficient solution for ha
 - [Introduction](#project-name)
 - [Features](#features)
 - [Technologies](#Technologies)
-- [Tasks Described](#tasksdescribed)
+- [TasksDescribed](#TasksDescribed)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
